@@ -1,0 +1,145 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  position: relative;
+}
+h1 {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+}
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.rotated {
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
+  right: 30%;
+}
+.navbar-brand {
+  font-family: ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat, sans-serif;
+}
+.isz {
+  margin: 0 auto 3rem auto;
+  text-align: center;
+}
+.h:hover {
+  color: #ff4c68;
+}
+.h {
+  color: #ef8172;
+}
+#testimonials {
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.body {
+  margin: 0;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.c {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.helper {
+  position: relative;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+.copbtn {
+  margin: 3% 3%;
+  position: relative;
+  top: 2.5rem;
+}
+#footer {
+  text-align: center;
+  padding: 3.5% 0;
+}
+.ic {
+  padding: 1% 0.5%;
+}
+.lhead {
+  padding-top: 1%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 3vw;
+  line-height: 1.5;
+  color: #fff;
+}
+.signbut {
+  width: 60%;
+  position: relative;
+  bottom: 40%;
+}
+#pricing {
+  text-align: center;
+}
+.ptext {
+  padding-top: 2%;
+  font-size: 2.8vw;
+  line-height: 1.5;
+}
+.chead {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .rotated {
+    position: static;
+    transform: rotate(0);
+    padding: 3% 0;
+    width: 150px;
+    /* width: 50%; */
+  }
+  .helper {
+    width: 100%;
+    position: static;
+  }
+}
